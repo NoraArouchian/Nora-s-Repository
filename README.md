@@ -51,7 +51,7 @@ export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"
 
 bin/kafka-server-start.sh config/server.properties
 
-## In Another Terminal
+## In Another Terminal KAFKA
 
 su - kafka
 
@@ -62,7 +62,7 @@ bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 -
 bin/kafka-console-producer.sh --broker-list localhost:9092 --topic Nora
 
 
-## In Another Terminal
+## In Another Terminal KAFKA
 
 su - kafka
 
